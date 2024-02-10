@@ -12,7 +12,8 @@ root.render(
   <StrictMode>
     <ColorModeScript />
     <ChakraProvider theme={theme}>
-      <App/>
+      <ColorModeSwitcher />
+      <App />
     </ChakraProvider>
   </StrictMode>
 );
