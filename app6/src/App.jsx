@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import HeroImg from './assets/hero.jpg'
+import Explore from './components/Explore/Explore';
 
 const bgImage = {
   backgroundImage: `url(${HeroImg})`,
@@ -18,6 +19,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Explore/>
     </div>
   )
 }
